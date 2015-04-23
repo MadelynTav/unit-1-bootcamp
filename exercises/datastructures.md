@@ -23,7 +23,6 @@ Complete these exercises in `DataStructures.java`. Please use the `Cat.java` cla
 Write a method called `mostFrequentElement` that takes an ArrayList of Integers and finds the most frequently occurring element in the ArrayList. At the end print the element and its number of occurrences. If there is more than one such element, any one of them may be printed.
 
 **Bonus Challenge**
-
 What needs to be changed to make this work on an array of Strings?
 
 ####3. Pod HashMap

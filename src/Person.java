@@ -1,14 +1,15 @@
 public class Person {
-  private String name;
+    public int age;
+  public String name;
   private String phoneNumber;
   private String city;
-
   public Person() {
   }
 
   public Person(String name) {
     this.name = name;
   }
+    public Person (int age){ this.age=age; }
 
   public String getCity() {
     return city;
@@ -29,6 +30,10 @@ public class Person {
   public String getName() {
     return name;
   }
+    public int getAge(){ return age;}
+
+    public int setAge(int age)
+    { return this.age=age;}
 
   public void setName(String name) {
     this.name = name;
